@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="brand d-flex align-items-center">
+            <img alt="brand-name" id="brand-name" src="images/logo.png">
+            <h2>Visit Taniti Island</h2>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item selected">
+                <a class="nav-link" aria-current="home" href="home.html" disabled>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="placesToStay.html">Places to Stay</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gettingHere.html">Getting Here</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Things To Do
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Activities.html" disabled>Restaurants</a></li>
+                  <li><a class="dropdown-item" href="Activities.html" disabled>Groceries</a></li>
+                  <li><a class="dropdown-item" href="Activities.html">Activities</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Activities.html" disabled>Event Calendar</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-8 my-3">
+                <h2>Contact Form</h2>
+                <form action="home.html">
+                    <div class="form-group">
+                        <label for="exampleName">Name</label>
+                        <input type="text" class="form-control" id="exampleName" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPhoneNum">Phone Number</label>
+                        <input type="text" class="form-control" id="exampleInputPhoneNum" placeholder="777-777-7777">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="InputTimeZone">Time Zone</label>
+                        <input type="text" class="form-control" id="InputTimeZone" placeholder="Eastern">
+                    </div>
+                    
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    <footer class="d-flex align-items-center justify-content-center mx-3 p-3">
+        <div class="col">
+            <span class="footer-span"><a href="faqs.html">FAQs</a></span>
+            <span class="footer-span"><a href="contactform.html">Contact Us</a></span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

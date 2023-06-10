@@ -1,0 +1,148 @@
+.navbar{
+    background-color: #9AC5F4;
+    border: solid;
+    border-color: #99DBF5;
+    
+}
+
+.nav-item{
+    border: solid;
+    border-color: #99DBF5;
+    margin: 10px;
+    width: 125px;
+    text-align: center;
+    color: white;
+}
+
+
+.selected{
+    background-color: #A7ECEE;
+}
+
+
+.nav-item a{
+    color: white;
+}
+
+
+
+#logo{
+    height: 50px;
+    width: auto;
+}
+
+#brand-name{
+    height: 75px;
+    width: auto;
+    margin-left: 15px;
+}
+
+h1{
+    display: inline;
+    margin: 10px;
+}
+
+.brand{
+    display: flex;
+    align-content: center;
+}
+
+.entry-quote{
+    margin: 15px;
+}
+
+#mission-img-div{
+    margin-left: 50px;
+}
+
+button{
+    fill: #6699CC;
+}
+.contact-btn{
+    background-color: #6699CC !important;
+}
+
+.contact-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: #FFEEBB;
+}
+
+.list-resources{
+    border: solid;
+    border-color: #A7ECEE;
+    background-color: #FFEEBB;
+}
+
+.list-link{
+    
+    color: black;
+    
+    
+
+}
+
+ol li::marker{
+    color: black;
+}
+
+#next-link-heading{
+    color: black;
+}
+
+#groom-div{
+    display: flex;
+    justify-content: center;
+}
+
+.large-image{
+    height: 300px;
+    width: auto;
+}
+
+.footer-div{
+
+    margin-left: 10%;
+
+}
+
+.footer-span{
+    margin: 2%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.footer-span a{
+    text-decoration: none;
+    
+    border: solid;
+    background-color: #99DBF5;
+    color: white;
+    padding: 5px;
+}
+
+.footer-span a:hover{
+    color: black;
+}
+
+footer{
+    height: 85px;
+    
+}
+
+.btn{
+    background-color: #99DBF5 !important;
+    color: #FFEEBB !important;
+    margin: 5px;
+}
+
+.dropdown-item{
+    color: black !important;
+}
+
+.margin-add{
+    margin: 5px;
+}
